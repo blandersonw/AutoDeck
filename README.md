@@ -5,23 +5,23 @@ This application will be used to create a software capable of generating a prese
 
 ### Presentation topic:
 
----"Monkey species found in the Amazon rainforest"
+Monkey species found in the Amazon rainforest
 
 ### Subtopics:
 
----"History, Social Behavior, Diet"
+History, Social Behavior, Diet
 
 ### Number of slides:
 
----"6-8 slides"
+6-8 slides
 
 ### Script, Y/N:
 
----"Y"
+Y
 
 ### Additional Information:
 
----"Be sure to include information about the length of monkey's tails.  Each slide should take 15-30 seconds to present."
+Be sure to include information about the length of monkey's tails.  Each slide should take 15-30 seconds to present.
 
 ## Using this input, we can include text formatting to generate a prompt for a LLM, like so:
 
