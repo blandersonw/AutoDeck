@@ -1,7 +1,7 @@
 # GenerativePresentation
-This application will be used to create a software capable of generating a presentation on many topics.
+This application will be used to generate a presentation according to user input.
 
-## User Input:
+## Example User Input:
 
 ### Presentation topic:
 
