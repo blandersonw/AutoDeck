@@ -102,4 +102,8 @@ We already know that LLMs can produce detailed analysis and essays.  This projec
 
 The first step is refining the prompt to fine-tune content generation, as shown above.
 
-Step two will include presentation graphic design, including images, charts, etc.  Step two explanation to be cont'd...
+Step two will include presentation graphic design, including images, charts, etc.  
+
+Here, we will have to decide on the medium for the application: Google Slides add-on, downloadable soft-ware to create .pptx, etc.
+
+Step two explanation to be cont'd...
