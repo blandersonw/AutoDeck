@@ -21,6 +21,7 @@ Create a presentation about 'monkey species found in the Amazon rainforest. Incl
 ## This input produce the following output.
 
 1. Title: Monkey Species Found in the Amazon Rainforest
+
 Body Content: 
 - Types of Monkeys: Howler, Spider, Squirrel, Titi, and Marmoset
 - Geographic Location: South America
@@ -29,6 +30,7 @@ Body Content:
 Script: Welcome, everyone! Today we'll be discussing the different monkey species that can be found in the Amazon Rainforest. The five species are Howler, Spider, Squirrel, Titi, and Marmoset. They are all found in South America and inhabit various habitats, such as rivers, trees, and leaves. Now let's take a closer look at each species.
 
 2. Title: Howler Monkeys
+
 Body Content: 
 - Appearance: Fur Color Varies, Large Heads, Long & Shaggy Coats
 - Size: Average Weight 15 lbs, Longest Tail Length 24 inches
@@ -37,6 +39,7 @@ Body Content:
 Script: Howler Monkeys are one of the species in the Amazon Rainforest. They have fur that can vary in color, large heads, and a long, shaggy coat. They weigh on average 15 lbs and their tail can reach up to 24 inches in length. Their diet consists of fruits, leaves, nuts, and insects.
 
 3. Title: Spider Monkeys
+
 Body Content: 
 - Appearance: Fur Color Varies, Long Tail, Long Limbs
 - Size: Average Weight 15 lbs, Longest Tail Length 28 inches
@@ -45,6 +48,7 @@ Body Content:
 Script: Spider Monkeys are another species in the Amazon Rainforest. They have fur that can vary in color, long tails, and long limbs. They weigh on average 15 lbs and their tail can reach up to 28 inches in length. Their diet consists of leaves, fruits, nuts, and insects.
 
 4. Title: Squirrel Monkeys
+
 Body Content: 
 - Appearance: Light Gray Fur, Large Ears, Short Tail
 - Size: Average Weight 2 lbs, Longest Tail Length 14 inches
@@ -53,6 +57,7 @@ Body Content:
 Script: Squirrel Monkeys are another species in the Amazon Rainforest. They have light gray fur, large ears, and a short tail. They weigh on average 2 lbs and their tail can reach up to 14 inches in length. Their diet consists of fruits, insects, nuts, and leaves.
 
 5. Title: Titi Monkeys
+
 Body Content: 
 - Appearance: Thick Fur, Long Tail, Dark Eyes
 - Size: Average Weight 4 lbs, Longest Tail Length 18 inches
@@ -61,6 +66,7 @@ Body Content:
 Script: Titi Monkeys are another species in the Amazon Rainforest. They have thick fur, long tails, and dark eyes. They weigh on average 4 lbs and their tail can reach up to 18 inches in length. Their diet consists of fruits, insects, nuts, and leaves.
 
 6. Title: Marmoset Monkeys
+
 Body Content: 
 - Appearance: White-tipped Tail, Fur Color Varies, Long-clawed Feet
 - Size: Average Weight 1 lbs, Longest Tail Length 10 inches
@@ -69,6 +75,7 @@ Body Content:
 Script: Marmoset Monkeys are another species in the Amazon Rainforest. They have white-tipped tails, fur that can vary in color, and long-clawed feet. They weigh on average 1 lbs and their tail can reach up to 10 inches in length. Their diet consists of insects, nectar, sap, fruits, and leaves. 
 
 7. Title: Summary
+
 Body Content: 
 - 5 Species of Monkeys 
 - Geographic Location: South America
