@@ -1,4 +1,4 @@
-## GenerativePresentation
+# GenerativePresentation
 This application will be used to create a software capable of generating a presentation on many topics.
 
 User Input:
@@ -13,12 +13,12 @@ User Input:
 -Additional Information:
 ---"Be sure to include information about the length of monkey's tails.  Each slide should take 15-30 seconds to present."
 
-# Using this input, we can include text formatting to generate a prompt for a LLM, like so:
+## Using this input, we can include text formatting to generate a prompt for a LLM, like so:
 
 Create a presentation about 'monkey species found in the Amazon rainforest. Include subtopics as the theme of each slide, such as 'history, social behavior and diet'. The presentation should be 6-8 slides. Include a title, body content, and script for each slide.  The body content can be presented with key words/phrases, bullet points, or other effective methods of relaying information in a slide.  Give detailed information in each body slide, without writing out full paragraphs. Feel free to separate body content into categories if effective.  The script should be for the speaker of the presentation. Be sure to include information about the length of monkey's tails. Each slide should take 15-30 seconds to present.  Output the information in the following format: "1. 'Title:' __ [new line] 'Body content:' __ [new line] 'Script:' __ [new line]". This represents the first slide.  Continue this format for each slide.
 
 
-# This input produce the following output.
+## This input produce the following output.
 
 1. Title: Monkey Species Found in the Amazon Rainforest
 Body Content: 
@@ -70,7 +70,7 @@ Body Content:
 - Diet: Fruits, Leaves, Nuts, Insects
 Script: Let's review what we've discussed today. We learned about the five species of monkeys that inhabit the Amazon Rainforest: Howler, Spider, Squirrel, Titi, and Marmoset. These species are all found in South America and inhabit various habitats such as rivers, trees, and leaves. Their diets consist of fruits, leaves, nuts, and insects.
 
-# Limitations
+## Limitations
 
 This output makes for a mildly interesting presentation, but it 1) does not accurately address all of the specified subtopics, 2) is incredibly repetitive, and 3) seems like the work of a young teenager.
 
