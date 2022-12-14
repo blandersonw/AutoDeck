@@ -1,25 +1,25 @@
 # GenerativePresentation
 This application will be used to create a software capable of generating a presentation on many topics.
 
-User Input:
+## User Input:
 
--Presentation topic:
+### Presentation topic:
 
 ---"Monkey species found in the Amazon rainforest"
 
--Subtopics:
+### Subtopics:
 
 ---"History, Social Behavior, Diet"
 
--Number of slides:
+### Number of slides:
 
 ---"6-8 slides"
 
--Script, Y/N:
+### Script, Y/N:
 
 ---"Y"
 
--Additional Information:
+### Additional Information:
 
 ---"Be sure to include information about the length of monkey's tails.  Each slide should take 15-30 seconds to present."
 
