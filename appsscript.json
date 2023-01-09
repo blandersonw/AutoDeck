@@ -1,0 +1,20 @@
+{
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/presentations.currentonly",
+    "https://www.googleapis.com/auth/presentations",
+    "https://www.googleapis.com/auth/script.container.ui",
+    "https://www.googleapis.com/auth/script.external_request"
+  ],
+  "timeZone": "America/Chicago",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "Slides",
+        "version": "v1",
+        "serviceId": "slides"
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8"
+}
