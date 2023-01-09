@@ -1,0 +1,121 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <style>
+        .logo {
+            vertical-align: middle;
+        }
+
+        h1 {
+            padding: 10px;
+        }
+
+        #main_inputs,
+        li {
+            padding: 5px;
+            list-style-type: none;
+        }
+
+        input[type=button],
+        input[type=submit],
+        input[type=reset] {
+            background-color: #04AA6D;
+            border: ;
+            color: green;
+            padding: 1px 30px;
+            text-decoration: none;
+            margin: 6px 10px;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <h1>
+            Welcome to AutoDeck. Answer the following prompts in order to generate a slide deck!
+        </h1>
+    </div>
+
+    <div id="main_inputs">
+    </div>
+
+    <script>
+        $(function() {
+
+            const main_inputs = {
+                topic_input: 'Enter your topic (you can be specific!): ',
+                length_input: 'Enter total # of slides (max 10): ',
+            };
+
+            const topicList = Object.keys(main_inputs).map((id) => {
+                return $('<li>').html([
+                    $('<label>')
+                    .attr('for', 'input-type-' + id)
+                    .html(main_inputs[id] + "<br>"),
+                    $('<input>')
+                    .attr('type', 'text')
+                    .attr('name', 'topic')
+                    .attr('id', 'input-type-' + id),
+                ]);
+            });
+
+            $('#main_inputs').html(topicList);
+        });
+    </script>
+
+    <input type="button" value="Generate Slides" onclick="storeInput()">
+
+
+    <h1 id="storedTopic"></h1>
+    <h1 id="result"></h1>
+
+    <script>
+        function displayPrompt(txt) {
+            document.getElementById("result").innerHTML = "Complete! Feel free to remove all slides except the header to make a new presentation.";
+            //google.script.run.devBar();
+        }
+
+        function storeInput() {
+
+            // Storing inputs from user
+            var topicValue = document.getElementById("input-type-topic_input").value;
+            var lengthValue = document.getElementById("input-type-length_input").value;
+
+            //Checking to ensure topics are stored correctly
+            document.getElementById("storedTopic").innerHTML = `Creating your presentation about ${topicValue}.  Please wait two minutes before retrying.`;
+
+            var prompt = `You are designed to produce high-quality, educational presentations.  
+
+Presentations can be broken down into 2 categories:
+
+Titles:
+-Primary Slide Title should give an overview of the presentation.  It should be similar to the topic, but make it engaging and formal.
+-Body Slide Titles should given an overview of each subsection of the presentation.  These should layout the information that will be discussed within the individual slide.
+
+Body Content:
+-Body content should NOT be written as long paragraphs.  Body content should be short phrases/sentences that can either be expressed as bullet points or standalone text boxes.  Body content should give an overview of the script.
+-Body content does not need to be grammatically correct sentences.  Fragmented sentences are fine.
+
+If something is covered in [] in the format, you should following the directions within the [].
+
+You MUST display your presentation as a JSON in the following format: 
+
+{"[insert Primary Slide Title]": "[insert subtitle]", 
+"[insert Body Slide Title 1]":  {"1": "[insert body content]", "2": "[insert body content]" , "3": "[insert body content]"}, 
+"[insert Body Slide Title 2]": [same as above], ...}
+
+Produce a presentation with a title slide and ${parseInt(lengthValue, 10)} body content slides about ${topicValue}, according to the above format.
+
+Make sure each body slide has either 2, 3, or 4 pieces of information.  Randomly change the amount per slide.`
+
+            //Building user prompts
+            google.script.run.withSuccessHandler(displayPrompt).generateDeck(prompt);
+        }
+    </script>
+</body>
+
+</html>
