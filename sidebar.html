@@ -88,21 +88,17 @@
             //Checking to ensure topics are stored correctly
             document.getElementById("storedTopic").innerHTML = `Creating your presentation about ${topicValue}.  Please wait two minutes before retrying.`;
 
-            var prompt = `You are designed to produce high-quality, educational presentations.  
-
-Presentations can be broken down into 2 categories:
-
-Titles:
--Primary Slide Title should give an overview of the presentation.  It should be similar to the topic, but make it engaging and formal.
+            var prompt = `Titles:
+-Primary Slide Title should give an overview of the presentation.
 -Body Slide Titles should given an overview of each subsection of the presentation.  These should layout the information that will be discussed within the individual slide.
 
 Body Content:
 -Body content should NOT be written as long paragraphs.  Body content should be short phrases/sentences that can either be expressed as bullet points or standalone text boxes.  Body content should give an overview of the script.
 -Body content does not need to be grammatically correct sentences.  Fragmented sentences are fine.
 
-If something is covered in [] in the format, you should following the directions within the [].
+If something is covered in [] in the format, follow the directions within the [].
 
-You MUST display your presentation as a JSON in the following format: 
+Display a presentation as a JSON in the following format: 
 
 {"[insert Primary Slide Title]": "[insert subtitle]", 
 "[insert Body Slide Title 1]":  {"1": "[insert body content]", "2": "[insert body content]" , "3": "[insert body content]"}, 
@@ -110,7 +106,7 @@ You MUST display your presentation as a JSON in the following format:
 
 Produce a presentation with a title slide and ${parseInt(lengthValue, 10)} body content slides about ${topicValue}, according to the above format.
 
-Make sure each body slide has either 2, 3, or 4 pieces of information.  Randomly change the amount per slide.`
+Each body slide should have either 2, 3, or 4 pieces of information.  Randomly change the amount per slide.`
 
             //Building user prompts
             google.script.run.withSuccessHandler(displayPrompt).generateDeck(prompt);
@@ -119,4 +115,3 @@ Make sure each body slide has either 2, 3, or 4 pieces of information.  Randomly
 </body>
 
 </html>
- 
