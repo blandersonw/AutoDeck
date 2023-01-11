@@ -15,23 +15,23 @@ Generated Presentation 2 (1:15): The War on Antarctic Camels - showcases applica
 
 ## Limitations
 
-There are a number of limitations to this project, including but not limited to:
+**There are a number of limitations to this project, including but not limited to:**
 
 * Statically formatted slides (text size, positioning, etc).
 
-Solution: More UI customization.
+*Solution: More UI customization.*
 
 * Lack of images / graphics.
 
-Solution: Same as above.
+*Solution: Same as above.*
 
 * Accuracy breakdown + token limits with increased presentation size (>10).
 
-Solution: Multiple API calls.
+*Solution: Multiple API calls.*
 
 * Highly professional level writing and analysis.
 
-Solution: Fine-tuning model.
+*Solution: Fine-tuning model.*
 
 
 
