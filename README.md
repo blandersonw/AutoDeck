@@ -1,9 +1,14 @@
 # Overview
 
-The goal of this project is to find new use cases of GPT-3. We were interested in seeing how OpenAI's GPT-3 would perform when asked to generate a slide deck. To accomplish this, we decided to use Google Apps Script to build a custom Google Slides plugin that would take in a presentation topic and length, and output a presentation based on those parameters. 
+The goal of this project is to experiment with new applications of GPT-3. 
 
-# GenerativePresentation
 We created a google slides plugin that can generate a presentation on any topic. The plugin works best on decks of <10 slides, with a sweet spot around 5-7.
+
+## Backstory
+
+The United States' most brilliant minds have estimated that millions of hours are spent creating meaningless presentations, not just in elementary school, but also at top Universities.
+
+# Demonstration
 
 Here is an example:
 
