@@ -5,12 +5,13 @@ The goal of this project is to experiment with new applications of GPT-3.
 We created a google slides plugin that can generate a presentation on any topic. The plugin works best on decks of <10 slides, with a sweet spot around 5-7.
 
 ## Backstory
+(you can skip this part)
 
 There is an epidemic in American education.
 
-The United States' most brilliant minds estimate that millions of hours are wasted annually.
+The United States' most brilliant minds estimate that millions of hours are wasted annually.  
 
-We are, of course, speaking about the creation of meaningless presentations -- from rural elementary schools to the nation's most prestigious Universities.  Dubbed the "eighth millenium problem", it has puzzled software engineers and machine learning specialists for decades.
+We are, of course, speaking about the creation of meaningless presentations -- from rural elementary schools to the nation's most prestigious Universities.  Dubbed the "eighth millenium problem", automatic slide deck generation has puzzled software engineers and machine learning specialists for decades.
 
 We solved it.
 
