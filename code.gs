@@ -11,19 +11,19 @@ function onInstall(event) {
 function showSidebar() {
   const ui = HtmlService
       .createHtmlOutputFromFile('sidebar')
-      //NEED A sidebar.html IN THE FILES TO EXECUTE ABOVE - Creates UI
       .setTitle('AutoDeck Initialization');
   SlidesApp.getUi().showSidebar(ui);
 }
 
 function generateDeck(prompt) {
-  var apiKey = ENTER-YOUR-APIKEY-HERE;
+  var apiKey = API-KEY-HERE;
   var endpoint = "https://api.openai.com/v1/engines/text-davinci-003/completions";
   var payload = {
     "prompt": prompt,
+    "temperature": 0.5,
     "max_tokens": 2500,
     "frequency_penalty": 0.5,
-    "presence_penalty": 0.5
+    "presence_penalty": 0.5,
   };
 
   var options = {
@@ -41,11 +41,9 @@ function generateDeck(prompt) {
 }
 
 function devBar() {
-  // Generate the HTML for the new sidebar
   const ui = HtmlService
     .createHtmlOutputFromFile('devbar')
     .setTitle('AutoDeck Development');
-  // Display the sidebar
   SlidesApp.getUi().showSidebar(ui);
 }
 
@@ -91,5 +89,7 @@ function createSlides(obj, titles, i){
 
   }
 }
+
+
 
 
