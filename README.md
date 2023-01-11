@@ -9,9 +9,11 @@ We created a google slides plugin that can generate a presentation on any topic.
 
 There is an epidemic in American education.
 
-The United States' most brilliant minds estimate that millions of hours are wasted annually.  
+The United States' most brilliant minds estimate that millions of hours are wasted annually - from rural elementary schools to the nation's most prestigious Universities.  
 
-We are, of course, speaking about the creation of meaningless presentations -- from rural elementary schools to the nation's most prestigious Universities.  Dubbed the "eighth millenium problem", automatic slide deck generation has puzzled software engineers and machine learning specialists for decades.
+We are, of course, speaking about the creation of meaningless presentations.  In a feeble attempt to reduce their own workload, teachers brutally force students to create presentations unrelated to the students' true interests.  
+
+Dubbed the "eighth millenium problem", automatic slide deck generation has puzzled software engineers and machine learning specialists for decades.
 
 We solved it.
 
