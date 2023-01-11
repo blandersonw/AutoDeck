@@ -16,22 +16,22 @@ Generated Presentation 2 (1:15): The War on Antarctic Camels - showcases applica
 
 ## Methodology
 
-This project was very easy to build.  The primary steps consist of:
+This project was very easy to build.  The primary steps consisted of:
 
 1. Google Slides plug-in interface.
-  * Get topic value (string) from user.
-  * Get length value (int) from user.
+   * Get topic value (string) from user.
+   * Get length value (int) from user.
 2. Generate a prompt for GPT-3 with user inputs.
-  * Must return information in a digestible format (JSON).
-  * Separate content into sections (titles, segemented body content, etc).
+   * Must return information in a digestible format (JSON).
+   * Separate content into sections (titles, segemented body content, etc).
 3. Make the GPT-3 API request.
-  * Da-Vinci-003 for best accuracy.
-  * {temperature: .7, tokens: 2500, frequency_penalty: .5, presence_penalty: .5}
-5. Read JSON-string as a JSON and separate elements.
-  * Keys = titles.
-  * Values = body content.
-6. Create slides for each property.
-  * Adjusted height positioning based on number of body content values for each slide.
+   * Da-Vinci-003 for best accuracy.
+   * {temperature: .7, tokens: 2500, frequency_penalty: .5, presence_penalty: .5}
+4. Read JSON-string as a JSON and separate elements.
+   * Keys = titles.
+   * Values = body content.
+5. Create slides for each property.
+   * Adjusted height positioning based on number of body content values for each slide.
 
 ## Limitations
 
