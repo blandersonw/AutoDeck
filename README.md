@@ -6,7 +6,13 @@ We created a google slides plugin that can generate a presentation on any topic.
 
 ## Backstory
 
-The United States' most brilliant minds have estimated that millions of hours are spent creating meaningless presentations, not just in elementary school, but also at top Universities.
+There is an epidemic in American education.
+
+The United States' most brilliant minds estimate that millions of hours are wasted annually.
+
+We are, of course, speaking about the creation of meaningless presentations -- from rural elementary schools to the nation's most prestigious Universities.  Dubbed the "eighth millenium problem", it has puzzled software engineers and machine learning specialists for decades.
+
+We solved it.
 
 # Demonstration
 
