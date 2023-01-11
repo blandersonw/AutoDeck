@@ -9,9 +9,9 @@ Here is an example:
 
 https://user-images.githubusercontent.com/89415722/211634050-88eedbbc-405f-48c9-8e4d-a8461000b704.mp4
 
-Generated Presentation 1: Multivariable Calculus - showcases application using real-world, complex topics.
+Generated Presentation 1 (0:25): Multivariable Calculus - showcases application using real-world, complex topics.
 
-Generated Presentation 2: The War on Antarctic Camels - showcases application imagining a false reality.
+Generated Presentation 2 (1:15): The War on Antarctic Camels - showcases application imagining a false reality.
 
 # Limitations
 
